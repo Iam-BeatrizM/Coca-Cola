@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --preto: #000000;
+    --branco:#fff;
+}
+
+/* HEADER */
+
+nav{
+    background-color: blue;
+   list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--branco);
+    
+}
+.icones{
+    width: 88px;
+}
