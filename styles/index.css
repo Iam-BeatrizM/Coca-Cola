@@ -10,18 +10,68 @@
 
 /* HEADER */
 
-nav{
-    background-color: blue;
-   list-style: none;
+header{
     display: flex;
-    gap: 10px;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    padding: 19px;
+    background-color: blueviolet;
+    
+}
+
+#logo{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    
+}
+
+
+nav{
+    display: flex;
+}
+
+li,ul{
+    display: flex;
+    /* justify-content:space-between ; */
+    gap: 20px;
+
+}
+
+#links{
+    display: flex;
+    align-items: flex-st;
 }
 
 a{
+    color: var(--preto);
     text-decoration: none;
-    color: var(--branco);
+}
+
+#entrar{
+    background-color: transparent;
+    border-radius: 6px;
+    border: 1px solid var(--preto);
+    cursor: pointer; 
+}
+
+/* FIM HEADER */
+/* MAIN */
+
+#part1{
+    background-color: blue;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#text{
+    padding: 100px;
     
 }
-.icones{
-    width: 88px;
+
+#naScasa{
+    padding: 40px;
 }
