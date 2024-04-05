@@ -13,10 +13,10 @@
 header{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
     height: 80px;
     padding: 19px;
-    background-color: blueviolet;
     
 }
 
@@ -34,14 +34,8 @@ nav{
 
 li,ul{
     display: flex;
-    /* justify-content:space-between ; */
+    align-items: center;
     gap: 20px;
-
-}
-
-#links{
-    display: flex;
-    align-items: flex-st;
 }
 
 a{
@@ -49,29 +43,39 @@ a{
     text-decoration: none;
 }
 
-#entrar{
+#cadastro{
+    display: flex;
+    align-items: center;
+}
+
+.Entrar{
     background-color: transparent;
     border-radius: 6px;
     border: 1px solid var(--preto);
     cursor: pointer; 
+    height: 37px;
+    width: 75px;
 }
+
+.comprar{
+    background-color: black;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer; 
+    height: 37px;
+    width: 30%;
+}
+
+
 
 /* FIM HEADER */
 /* MAIN */
 
 #part1{
-    background-color: blue;
+    /* background-color: blue; */
     padding: 20px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-#text{
-    padding: 0px;
-    
-}
-
-#naScasa{
-    padding: 0px;
-}

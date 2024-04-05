@@ -8,13 +8,14 @@
     <title>Login</title>
 </head>
 <body>
-     <main>  
+    <main>  
         <div id="caixa">
+            <div class="conteudo-form">
                 <div id="formu">
                     <h2>Entrar com e-mail</h2>
                     <form action="../index.html">
                         <label for="e-mail">E-mail</label>
-                        <input type="email" id="e-mail">
+                        <input required type="email" id="e-mail">
                         <br>
                         <label for="senha">Senha</label>
                         <input required type="password" id="senha">
@@ -24,17 +25,17 @@
                         <button type="submit">Entrar</button>
                         <br>
                         <p>Não possui uma conta?</p>
-                        <button type="reset">Inscrever-se agora</button>     
+                        <button id="Inscrever" type="reset">Inscrever-se agora</button>     
                     </form>
                 </div>
-                <aside id="mensagem">
-                    <div id="textLogin">
-                        <h3>Sua experiência começa aqui
-                            <p>Cadastre-se uma vez e tenha acesso a todos os sites Coca-Cola</p>
-                        </h3>
-                    </div>
-                    <img src="../images/interface-icones/garrafa.svg" height="300px" alt="garrafa">
-                </aside>
+            </div>
+            <aside id="mensagem">
+                <div class="conteudo-mensagem">
+                    <h3>Sua experiência começa aqui</h3>
+                    <p>Cadastre-se uma vez e tenha acesso a todos os sites Coca-Cola</p>
+                </div>
+                <img src="../images/interface-icones/garrafa.svg" height="250px" alt="garrafa">
+            </aside>
         </div>
     </main>  
 

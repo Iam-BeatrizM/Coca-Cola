@@ -1,61 +1,82 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     color: #4a4a4a;
 }
 
 :root{
-    --fonteTitulo:"TCCC Unity Text Bold";
-    --fonteTexto:"TCCC Unity Text Regular";
-    --cinza:#4a4a4a;
+    --fonteTitulo: "TCCC Unity Text Bold";
+    --fonteTexto: "TCCC Unity Text Regular";
+    --cinza: #4a4a4a;
 }
 
 main{
-    width: 50%;
-    height: 50%;
-    background-color: #03ff4f ;
-    border-radius: 10px;
-    
-    
-}
-#caixa{
     width: 100%;
-    height: 100vh;
-    background-color:darksalmon;
+    height: 87vh;
+    background-color: #ffffff; /* Alterado para branco */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-input{
-    width: 78%;
-    padding: 5px;
-    border:1px solid #bebebe; ;
-    box-shadow: inset 0 0 4px rgba(0,0,0,.3);
-    border-radius: 10px;
-    font-size: 16px;
-    padding: 14.6px 10px;
-    
+#caixa{
+    display: flex;
+    justify-content: space-around; /* Espaçamento entre os elementos */
+    align-items: center;
+    width: 80%; /* Ajuste do tamanho */
 }
 
-#mensagem{
-    background-color: blueviolet;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
+.conteudo-form, #mensagem {
+    width: 45%; /* Ajuste do tamanho */
+}
+
+input{
+    width: 90%;
+    padding: 10px; /* Ajuste do padding */
+    border: 1px solid #bebebe;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 10px; /* Espaçamento inferior */
 }
 
 button{
-    width: 100%;
-    padding: 11px;
-    border-radius: 25px; ;
-    background:#fe001a;
-    border:none;
+    width: 96%;
+    padding: 10px;
+    border-radius: 25px;
+    background: #fe001a;
+    border: none;
     color: #fff;
     cursor: pointer;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-a{
-    color:var(--cinza);
+
+#mensagem{
+    background-color: #f0f0f0; /* Alterado para cinza claro */
+    padding: 20px ;
+    border-radius: 10px;
+    text-align: center; /* Alinhamento do texto */
+}
+
+.conteudo-mensagem h3 {
+    font-size: 24px; /* Tamanho do título */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+.conteudo-mensagem p {
+    font-size: 16px; /* Tamanho do texto */
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    
+
+}
+
+li,ul{
+    display: flex;
+    
 }
