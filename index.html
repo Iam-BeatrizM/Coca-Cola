@@ -15,13 +15,13 @@
                 <div id="links">
                     <ul>
                         <img  id="logo" src="images/logo/coca-cola-logo.png" alt="logo">
-                        <li><a href="#">Ofertas</a></li>
+                        <li><a href="#Ofertas">Ofertas</a></li>
                         <li><a href="#">Promoções</a></li>
                         <li><a href="#">Retornáveis</a></li>
                         <li><a href="#">Loja</a></li>
                         <div id="cadastro">
-                            <button class="Entrar" type="submit">Entrar!</button>
-                            <a href="pages/login.html"></a>
+                            <a href="./pages/login.html"><button class="Entrar" type="submit">Entrar!</button></a>
+   
                         </div>
                     </ul>
                 </div>
@@ -30,12 +30,14 @@
     <main>
         <div id="part1">
                 <div id="text">
-                    <img id="naScasa" src="images/at-your-home-title.png" alt="na sua casa">
+                    <div id="naScasa">
+                        <img src="images/at-your-home-title.png"  alt="na sua casa">
+                    </div>
                     <h3>Opa, abriu a geladeira e tá sem Coca? Não se <br> preocupe! Peça seu produto Coca‑Cola no Na <br> Sua Casa e receba suas bebidas favoritas no dia <br> seguinte!*</h3>
-                    <button class="comprar">Comprar produtos</button>
+                    <a href="#produtos"><button class="comprar">Comprar produtos</button></a>
                 </div> 
                 <div id="imagePart1">
-                    <img src="images/home.png" height="500px" alt="imagePart1">
+                    <img src="images/home.png"  height="500px" alt="imagePart1">
                  </div>
          </div>
 
@@ -44,11 +46,48 @@
             <p>Cupons e benefícios exclusivos da Coca-Cola para você!</p>
             <button class="ofertas">Ver todas as ofertas!</button>
          </div>
-        
-       
-        
+
+         <div id="fundoProduto">
+            <div id="produtos">
+                <div class="refri"><img src="images/coca250.png" alt="coca250">  
+                    <div class="textoo">
+                        <h4>Coca-Cola Sem Açúcar 250ml Pet</h4>
+                        <p>Por: R$ 2,29</p>
+                    </div>
+                    <div class="buttonComprar"> 
+                        <button type="button"> COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+            <div class="refri"><img src="images/coca600.png" alt="coca600">  
+                <div class="textoo">
+                    <h4>Coca-Cola Sem Açúcar 600ml Pet</h4>
+                    <p>Por: R$ 4,99</p>
+                </div>
+                    <div class="buttonComprar">
+                        <button type="button">COMPRAR</button>
+                    </div>
+               </div>
+               <div class="refri"><img src="images/coca1,5.png" alt="coca1,5">  
+                    <div class="textoo">
+                        <h4>Coca-Cola Sem Açúcar 1,5L Pet</h4>
+                        <p>Por: R$ 6,49</p>
+                    </div>
+                         <div class="buttonComprar">
+                            <button type="button">COMPRAR</button>
+                        </div>
+                    </div>
+               </div>
+         </div>
+         
+
     </main>
-    <footer></footer>
+    <footer> <img src="../images/interface-icones/logoFooter.svg" width="160px" alt="logoFooter">
+        <ul>
+            <li> Termos de Uso </li>
+            <li> Privacidade</li>
+        </ul>
+    </footer>
     
 </body>
 </html>
